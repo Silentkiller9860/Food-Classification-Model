@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup as bs
 
 
 st.title("Food Classification Demo")
-model=load_model('D:/COMMANDO/ML Projects/Done/Food_Classification/model_Xception.h5')
+model=load_model('Model Path')
 
 def predict_calories(prediction):
     url = 'https://www.google.com/search?&q=calories+in  '+prediction
